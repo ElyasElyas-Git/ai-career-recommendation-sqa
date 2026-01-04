@@ -9,7 +9,7 @@ END FOR
 
 average = total / number_of_modules
 
-IF average >= 70 THEN
+IF average >= 75 THEN
  recommendation_level = “Advanced Career Track”
 ELSE
  recommendation_level = “Foundation Career Track”
