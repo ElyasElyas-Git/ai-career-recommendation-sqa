@@ -4,7 +4,7 @@ Set total = 0
 
 FOR i = 1 TO number_of_modules
  Input module_mark
- total = total + module_mark
+ total = total + float(module_mark)
 END FOR
 
 average = total / number_of_modules
